@@ -1,0 +1,12 @@
+{
+  "name": "dummy-app",
+  "version": "1.0.0",
+  "description": "A dummy app for testing CI/CD with Mega Cloud",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build step completed!' && mkdir dist && echo '<h1>Hello from Dummy App</h1>' > dist/index.html",
+    "start": "node index.js"
+  },
+  "author": "Marineabishek",
+  "license": "MIT"
+}
